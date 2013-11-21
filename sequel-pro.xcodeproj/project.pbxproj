@@ -451,6 +451,344 @@
 		C9C9944A1678B3E6001F5DA8 /* table-small-square@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C994481678B3E6001F5DA8 /* table-small-square@2x.png */; };
 		C9C9944D1678BCFA001F5DA8 /* table-small.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C9944B1678BCFA001F5DA8 /* table-small.png */; };
 		C9C9944E1678BCFA001F5DA8 /* table-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C9944C1678BCFA001F5DA8 /* table-small@2x.png */; };
+		C9EA7775183E426B00DDDA2E /* SPDatabaseRename.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C2109D1180E70800758039 /* SPDatabaseRename.m */; };
+		C9EA7776183E426B00DDDA2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E641440EF01EB5001BC333 /* main.m */; };
+		C9EA7777183E426B00DDDA2E /* SPCustomQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E641490EF01EF6001BC333 /* SPCustomQuery.m */; };
+		C9EA7778183E426B00DDDA2E /* SPAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E6414B0EF01EF6001BC333 /* SPAppController.m */; };
+		C9EA7779183E426B00DDDA2E /* SPGrowlController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E6414D0EF01EF6001BC333 /* SPGrowlController.m */; };
+		C9EA777A183E426B00DDDA2E /* SPTableContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E6414F0EF01EF6001BC333 /* SPTableContent.m */; };
+		C9EA777B183E426B00DDDA2E /* SPDatabaseDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E641510EF01EF6001BC333 /* SPDatabaseDocument.m */; };
+		C9EA777C183E426B00DDDA2E /* SPDataImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E641530EF01EF6001BC333 /* SPDataImport.m */; };
+		C9EA777D183E426B00DDDA2E /* SPTableStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E641550EF01EF6001BC333 /* SPTableStructure.m */; };
+		C9EA777E183E426B00DDDA2E /* SPTableInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E6415F0EF01F15001BC333 /* SPTableInfo.m */; };
+		C9EA777F183E426B00DDDA2E /* SPTablesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E641610EF01F15001BC333 /* SPTablesList.m */; };
+		C9EA7780183E426B00DDDA2E /* ImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E641690EF01F37001BC333 /* ImageAndTextCell.m */; };
+		C9EA7781183E426B00DDDA2E /* SPKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E641740EF01F80001BC333 /* SPKeychain.m */; };
+		C9EA7782183E426B00DDDA2E /* SPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E6417F0EF01FA8001BC333 /* SPImageView.m */; };
+		C9EA7783183E426B00DDDA2E /* SPTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E641810EF01FA8001BC333 /* SPTextView.m */; };
+		C9EA7784183E426B00DDDA2E /* SPSQLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FEF16C0F23D66600518E8E /* SPSQLParser.m */; };
+		C9EA7785183E426B00DDDA2E /* SPStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1789343B0F30C1DD0097539A /* SPStringAdditions.m */; };
+		C9EA7786183E426B00DDDA2E /* SPTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FEF57D0F3B4E9700518E8E /* SPTableData.m */; };
+		C9EA7787183E426B00DDDA2E /* SPDataCellFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C56EF40F438E120035701E /* SPDataCellFormatter.m */; };
+		C9EA7788183E426B00DDDA2E /* SPConsoleMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 172A65100F7BED7A001E861A /* SPConsoleMessage.m */; };
+		C9EA7789183E426B00DDDA2E /* SPEditorTokens.l in Sources */ = {isa = PBXBuildFile; fileRef = 179F15050F7C433C00579954 /* SPEditorTokens.l */; };
+		C9EA778A183E426B00DDDA2E /* SPExportController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E92F1B0F75B2E800012500 /* SPExportController.m */; };
+		C9EA778B183E426B00DDDA2E /* SPPreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57747D30F7A8974003B34F9 /* SPPreferenceController.m */; };
+		C9EA778C183E426B00DDDA2E /* SPWindowAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B57747D80F7A8990003B34F9 /* SPWindowAdditions.m */; };
+		C9EA778D183E426B00DDDA2E /* SPFavoriteTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B57747DB0F7A89D0003B34F9 /* SPFavoriteTextFieldCell.m */; };
+		C9EA778E183E426B00DDDA2E /* SPArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B52460D40F8EF92300171639 /* SPArrayAdditions.m */; };
+		C9EA778F183E426B00DDDA2E /* SPTextViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B52460D60F8EF92300171639 /* SPTextViewAdditions.m */; };
+		C9EA7790183E426B00DDDA2E /* MGTemplateEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 296DC8A70F909194002A3258 /* MGTemplateEngine.m */; };
+		C9EA7791183E426B00DDDA2E /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 296DC8AB0F909194002A3258 /* RegexKitLite.m */; };
+		C9EA7792183E426B00DDDA2E /* ICUTemplateMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 296DC8AC0F909194002A3258 /* ICUTemplateMatcher.m */; };
+		C9EA7793183E426B00DDDA2E /* MGTemplateStandardMarkers.m in Sources */ = {isa = PBXBuildFile; fileRef = 296DC8AD0F909194002A3258 /* MGTemplateStandardMarkers.m */; };
+		C9EA7794183E426B00DDDA2E /* NSArray_DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 296DC8AE0F909194002A3258 /* NSArray_DeepMutableCopy.m */; };
+		C9EA7795183E426B00DDDA2E /* NSDictionary_DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 296DC8B10F909194002A3258 /* NSDictionary_DeepMutableCopy.m */; };
+		C9EA7796183E426B00DDDA2E /* MGTemplateStandardFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = 296DC8B40F909194002A3258 /* MGTemplateStandardFilters.m */; };
+		C9EA7797183E426B00DDDA2E /* NoodleLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5841423E0F97E11000A34B47 /* NoodleLineNumberView.m */; };
+		C9EA7798183E426B00DDDA2E /* SPSQLTokenizer.l in Sources */ = {isa = PBXBuildFile; fileRef = BCD0AD480FBBFC340066EA5C /* SPSQLTokenizer.l */; };
+		C9EA7799183E426B00DDDA2E /* SPTableRelations.m in Sources */ = {isa = PBXBuildFile; fileRef = 387BBBA70FBCB6CB00B31746 /* SPTableRelations.m */; };
+		C9EA779A183E426B00DDDA2E /* SPDatabaseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1740FABA0FC4372F00CF3699 /* SPDatabaseData.m */; };
+		C9EA779B183E426B00DDDA2E /* SPNarrowDownCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C058870FC9FC390077E9CF /* SPNarrowDownCompletion.m */; };
+		C9EA779C183E426B00DDDA2E /* SPExtendedTableInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 177E7A220FCB6A2E00E9E122 /* SPExtendedTableInfo.m */; };
+		C9EA779D183E426B00DDDA2E /* SPSSHTunnel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CDB32F0FCE138D00F8ACA3 /* SPSSHTunnel.m */; };
+		C9EA779E183E426B00DDDA2E /* SPPrintAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A1B7E40FD1293A000B88E8 /* SPPrintAccessory.m */; };
+		C9EA779F183E426B00DDDA2E /* SPEditSheetTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1847E90FE6EC8400094BFB /* SPEditSheetTextView.m */; };
+		C9EA77A0183E426B00DDDA2E /* SPDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2C16D30FEBEDF10003993B /* SPDataAdditions.m */; };
+		C9EA77A1183E426B00DDDA2E /* SPConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5822C9B41000DB2400DCC3D6 /* SPConnectionController.m */; };
+		C9EA77A2183E426B00DDDA2E /* SPTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8C8531100E0A8000D7A129 /* SPTableView.m */; };
+		C9EA77A3183E426B00DDDA2E /* SPFieldEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9F0880100FCF2C00A80D32 /* SPFieldEditorController.m */; };
+		C9EA77A4183E426B00DDDA2E /* SPTextAndLinkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D2E227101222670063EF1D /* SPTextAndLinkCell.m */; };
+		C9EA77A5183E426B00DDDA2E /* YRKSpinningProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC05F1C4101241DF008A97F8 /* YRKSpinningProgressIndicator.m */; };
+		C9EA77A6183E426B00DDDA2E /* SPUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D90B799101E0CDF00D116A1 /* SPUserManager.m */; };
+		C9EA77A7183E426B00DDDA2E /* SPUserManager.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 4D90B79B101E0CF200D116A1 /* SPUserManager.xcdatamodel */; };
+		C9EA77A8183E426B00DDDA2E /* SPUserMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D90B79D101E0CF200D116A1 /* SPUserMO.m */; };
+		C9EA77A9183E426B00DDDA2E /* NSMutableArray-MultipleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 584192A0101E57BB0089807F /* NSMutableArray-MultipleSort.m */; };
+		C9EA77AA183E426B00DDDA2E /* SPHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589235301020C1230011DE00 /* SPHistoryController.m */; };
+		C9EA77AB183E426B00DDDA2E /* SPTooltip.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA6271B1031B9D40047E5D5 /* SPTooltip.m */; };
+		C9EA77AC183E426B00DDDA2E /* SPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DA8862103E15B5000B98DF /* SPLogger.m */; };
+		C9EA77AD183E426B00DDDA2E /* SPEncodingPopupAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = BC01BCCE104024BE006BDEE7 /* SPEncodingPopupAccessory.m */; };
+		C9EA77AE183E426B00DDDA2E /* SPQueryFavoriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 173C4365104455E0001F3A30 /* SPQueryFavoriteManager.m */; };
+		C9EA77AF183E426B00DDDA2E /* SPOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 173C44D71044A6B0001F3A30 /* SPOutlineView.m */; };
+		C9EA77B0183E426B00DDDA2E /* SPCSVExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F5B1501048C4E400FC794F /* SPCSVExporter.m */; };
+		C9EA77B1183E426B00DDDA2E /* SPExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F5B1531048C50D00FC794F /* SPExporter.m */; };
+		C9EA77B2183E426B00DDDA2E /* SPSQLExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F5B39B1049B96A00FC794F /* SPSQLExporter.m */; };
+		C9EA77B3183E426B00DDDA2E /* SPQueryController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC29C37E10501EFD00DD6C6E /* SPQueryController.m */; };
+		C9EA77B4183E426B00DDDA2E /* SPCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5822D3081061833C00CE2157 /* SPCSVParser.m */; };
+		C9EA77B5183E426B00DDDA2E /* SPContentFilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC675A131072039C00C5ACD4 /* SPContentFilterManager.m */; };
+		C9EA77B6183E426B00DDDA2E /* SPXMLExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 17292442107AC41000B21980 /* SPXMLExporter.m */; };
+		C9EA77B7183E426B00DDDA2E /* SPNotLoaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 582A01E8107C0C170027D42B /* SPNotLoaded.m */; };
+		C9EA77B8183E426B00DDDA2E /* SPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 173284E91088FEDE0062E892 /* SPConstants.m */; };
+		C9EA77B9183E426B00DDDA2E /* SPTableTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 171312CD109D23C700FB465F /* SPTableTextFieldCell.m */; };
+		C9EA77BA183E426B00DDDA2E /* SPProcessListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174CE14110AB9281008F892B /* SPProcessListController.m */; };
+		C9EA77BB183E426B00DDDA2E /* SPServerVariablesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1792C13610AD75C800ABE758 /* SPServerVariablesController.m */; };
+		C9EA77BC183E426B00DDDA2E /* SPConnectionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1792C26010AE1A2D00ABE758 /* SPConnectionDelegate.m */; };
+		C9EA77BD183E426B00DDDA2E /* SPAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CC97F210B4ABE90034CD7A /* SPAboutController.m */; };
+		C9EA77BE183E426B00DDDA2E /* SPDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5870868310FA3E9C00D58E1C /* SPDataStorage.m */; };
+		C9EA77BF183E426B00DDDA2E /* SPAlertSheets.m in Sources */ = {isa = PBXBuildFile; fileRef = 584095181107CB6600260CFD /* SPAlertSheets.m */; };
+		C9EA77C0183E426B00DDDA2E /* SPTableTriggers.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FA88221114619E00D1AF3D /* SPTableTriggers.m */; };
+		C9EA77C1183E426B00DDDA2E /* SPFieldMapperController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE0025C11173D2A009DA533 /* SPFieldMapperController.m */; };
+		C9EA77C2183E426B00DDDA2E /* SPPrintController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E090E711498FC9007FC1B4 /* SPPrintController.m */; };
+		C9EA77C3183E426B00DDDA2E /* SPNavigatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC27779F11514B940034DF6A /* SPNavigatorController.m */; };
+		C9EA77C4183E426B00DDDA2E /* SPMainThreadTrampoline.m in Sources */ = {isa = PBXBuildFile; fileRef = 589582141154F8F400EDCC28 /* SPMainThreadTrampoline.m */; };
+		C9EA77C5183E426B00DDDA2E /* SPNavigatorOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4DF1971158FB280059FABD /* SPNavigatorOutlineView.m */; };
+		C9EA77C6183E426B00DDDA2E /* SPFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5885CF49116A63B200A85ACB /* SPFileHandle.m */; };
+		C9EA77C7183E426B00DDDA2E /* SPDatabaseCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1198F5B21174EDD500670590 /* SPDatabaseCopy.m */; };
+		C9EA77C8183E426B00DDDA2E /* SPTableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1141A388117BBFF200126A28 /* SPTableCopy.m */; };
+		C9EA77C9183E426B00DDDA2E /* SPDatabaseAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B55BFD1189E3B2009EF465 /* SPDatabaseAction.m */; };
+		C9EA77CA183E426B00DDDA2E /* SPWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A8A79011A036C000B95749 /* SPWindowController.m */; };
+		C9EA77CB183E426B00DDDA2E /* SPDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5806B76311A991EC00813A88 /* SPDocumentController.m */; };
+		C9EA77CC183E426B00DDDA2E /* SPExportInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 173C836E11AAD26E00B8B084 /* SPExportInitializer.m */; };
+		C9EA77CD183E426B00DDDA2E /* SPExportUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 173C837011AAD26E00B8B084 /* SPExportUtilities.m */; };
+		C9EA77CE183E426B00DDDA2E /* SPDotExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 173C837411AAD2AE00B8B084 /* SPDotExporter.m */; };
+		C9EA77CF183E426B00DDDA2E /* SPHTMLExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 173C837611AAD2AE00B8B084 /* SPHTMLExporter.m */; };
+		C9EA77D0183E426B00DDDA2E /* SPPDFExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 173C837811AAD2AE00B8B084 /* SPPDFExporter.m */; };
+		C9EA77D1183E426B00DDDA2E /* SPCSVExporterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 173C838511AAD32A00B8B084 /* SPCSVExporterDelegate.m */; };
+		C9EA77D2183E426B00DDDA2E /* SPDotExporterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 173C838711AAD32A00B8B084 /* SPDotExporterDelegate.m */; };
+		C9EA77D3183E426B00DDDA2E /* SPHTMLExporterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 173C838911AAD32A00B8B084 /* SPHTMLExporterDelegate.m */; };
+		C9EA77D4183E426B00DDDA2E /* SPPDFExporterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 173C838B11AAD32A00B8B084 /* SPPDFExporterDelegate.m */; };
+		C9EA77D5183E426B00DDDA2E /* SPSQLExporterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 173C838D11AAD32A00B8B084 /* SPSQLExporterDelegate.m */; };
+		C9EA77D6183E426B00DDDA2E /* SPXMLExporterDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 173C838F11AAD32A00B8B084 /* SPXMLExporterDelegate.m */; };
+		C9EA77D7183E426B00DDDA2E /* DMLocalizedNibBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B909A411C3B919000826E5 /* DMLocalizedNibBundle.m */; };
+		C9EA77D8183E426B00DDDA2E /* SPIndexesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A7773311C52D8E001E27B4 /* SPIndexesController.m */; };
+		C9EA77D9183E426B00DDDA2E /* DMLocalizedNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 589ED05A11E0ACD100C1DCEA /* DMLocalizedNib.m */; };
+		C9EA77DA183E426B00DDDA2E /* SPExportFilenameUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AF787A11FC41C00073D043 /* SPExportFilenameUtilities.m */; };
+		C9EA77DB183E426B00DDDA2E /* SPExportFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F90E471210B42700274C98 /* SPExportFile.m */; };
+		C9EA77DC183E426B00DDDA2E /* SPExportFileUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F90E4A1210B43A00274C98 /* SPExportFileUtilities.m */; };
+		C9EA77DD183E426B00DDDA2E /* SPColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC85F5CF12193B7D00E255B5 /* SPColorAdditions.m */; };
+		C9EA77DE183E426B00DDDA2E /* SPColorWellCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC878A70121A836F00AE5066 /* SPColorWellCell.m */; };
+		C9EA77DF183E426B00DDDA2E /* SPCopyTable.m in Sources */ = {isa = PBXBuildFile; fileRef = BC398A2C121D526200BE3EF4 /* SPCopyTable.m */; };
+		C9EA77E0183E426B00DDDA2E /* SPFileManagerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC32F241121D66260067305E /* SPFileManagerAdditions.m */; };
+		C9EA77E1183E426B00DDDA2E /* SPServerSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A20AC5124F9B110095CEFB /* SPServerSupport.m */; };
+		C9EA77E2183E426B00DDDA2E /* SPGeometryDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2898F2125F4488001B50E1 /* SPGeometryDataView.m */; };
+		C9EA77E3183E426B00DDDA2E /* SPDatabaseCharacterSets.m in Sources */ = {isa = PBXBuildFile; fileRef = 17148564125F5FF500321285 /* SPDatabaseCharacterSets.m */; };
+		C9EA77E4183E426B00DDDA2E /* SPAppleScriptSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1798AB901267924D000D946A /* SPAppleScriptSupport.m */; };
+		C9EA77E5183E426B00DDDA2E /* SPExportControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 175EC63412733B36009A7C0F /* SPExportControllerDelegate.m */; };
+		C9EA77E6183E426B00DDDA2E /* SPTableStructureDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D38EBB12771A1C00672B13 /* SPTableStructureDelegate.m */; };
+		C9EA77E7183E426B00DDDA2E /* SPTableFieldValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D38F6F1279E23A00672B13 /* SPTableFieldValidation.m */; };
+		C9EA77E8183E426B00DDDA2E /* SPGeneralPreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D390C7127B65AF00672B13 /* SPGeneralPreferencePane.m */; };
+		C9EA77E9183E426B00DDDA2E /* SPPreferencesUpgrade.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D390CA127B6BF800672B13 /* SPPreferencesUpgrade.m */; };
+		C9EA77EA183E426B00DDDA2E /* SPPreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 1785E9F6127D8C7500F468C8 /* SPPreferencePane.m */; };
+		C9EA77EB183E426B00DDDA2E /* SPPreferenceControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1785EA15127DAE3A00F468C8 /* SPPreferenceControllerDelegate.m */; };
+		C9EA77EC183E426B00DDDA2E /* SPTablesPreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 1785EA22127DAF3300F468C8 /* SPTablesPreferencePane.m */; };
+		C9EA77ED183E426B00DDDA2E /* SPNotificationsPreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 1785EB5F127DD5A800F468C8 /* SPNotificationsPreferencePane.m */; };
+		C9EA77EE183E426B00DDDA2E /* SPAutoUpdatePreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 1785EB62127DD5DE00F468C8 /* SPAutoUpdatePreferencePane.m */; };
+		C9EA77EF183E426B00DDDA2E /* SPNetworkPreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 1785EB65127DD5EA00F468C8 /* SPNetworkPreferencePane.m */; };
+		C9EA77F0183E426B00DDDA2E /* SPEditorPreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 1785EB69127DD79300F468C8 /* SPEditorPreferencePane.m */; };
+		C9EA77F1183E426B00DDDA2E /* SPFontPreviewTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDB04B1280778B00DBBBC2 /* SPFontPreviewTextField.m */; };
+		C9EA77F2183E426B00DDDA2E /* SPDatabaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D3DC1F1281816E002A163A /* SPDatabaseViewController.m */; };
+		C9EA77F3183E426B00DDDA2E /* SPFavoriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D3C22112859E070047709F /* SPFavoriteNode.m */; };
+		C9EA77F4183E426B00DDDA2E /* SPConnectionControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D3C6031289BF350047709F /* SPConnectionControllerDelegate.m */; };
+		C9EA77F5183E426B00DDDA2E /* SPFavoritesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D3C66D128AD4710047709F /* SPFavoritesController.m */; };
+		C9EA77F6183E426B00DDDA2E /* SPSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D3C670128AD8160047709F /* SPSingleton.m */; };
+		C9EA77F7183E426B00DDDA2E /* SPFavoritesOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D3C6D2128B1C900047709F /* SPFavoritesOutlineView.m */; };
+		C9EA77F8183E426B00DDDA2E /* SPBundleEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68BFC6128D4EAE004907D9 /* SPBundleEditorController.m */; };
+		C9EA77F9183E426B00DDDA2E /* SPBundleCommandTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1944CF1297291800A236CD /* SPBundleCommandTextView.m */; };
+		C9EA77FA183E426B00DDDA2E /* SPBundleHTMLOutputController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC77C5E3129AA69E009AD832 /* SPBundleHTMLOutputController.m */; };
+		C9EA77FB183E426B00DDDA2E /* SPMenuAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DC10D212A1B8DF00B76DA5 /* SPMenuAdditions.m */; };
+		C9EA77FC183E426B00DDDA2E /* SPActivityTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5750D312A6233900911BA2 /* SPActivityTextFieldCell.m */; };
+		C9EA77FD183E426B00DDDA2E /* SPChooseMenuItemDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0ED3D912A9196C00088461 /* SPChooseMenuItemDialog.m */; };
+		C9EA77FE183E426B00DDDA2E /* SPWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 583CA21412EC8B2200C9E763 /* SPWindow.m */; };
+		C9EA77FF183E426B00DDDA2E /* SPExportFileNameTokenObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 582F02301370B52600B30621 /* SPExportFileNameTokenObject.m */; };
+		C9EA7800183E426B00DDDA2E /* SPQueryDocumentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713C73F140D8AEF00CFD461 /* SPQueryDocumentsController.m */; };
+		C9EA7801183E426B00DDDA2E /* SPQueryConsoleDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713C75E140D8D5900CFD461 /* SPQueryConsoleDataSource.m */; };
+		C9EA7802183E426B00DDDA2E /* SPQueryControllerInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17902611141025BB005F677F /* SPQueryControllerInitializer.m */; };
+		C9EA7803183E426B00DDDA2E /* SPObjectAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D878A15140FEB00F24774 /* SPObjectAdditions.m */; };
+		C9EA7804183E426B00DDDA2E /* SPDatabaseStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D87911514101E00F24774 /* SPDatabaseStructure.m */; };
+		C9EA7805183E426B00DDDA2E /* NSNotificationCenterThreadingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D88A81515034200F24774 /* NSNotificationCenterThreadingAdditions.m */; };
+		C9EA7806183E426B00DDDA2E /* SPDataBase64EncodingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D899C15162CBE00F24774 /* SPDataBase64EncodingAdditions.m */; };
+		C9EA7807183E426B00DDDA2E /* SPTableContentDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 17386E0A15192526002DC206 /* SPTableContentDataSource.m */; };
+		C9EA7808183E426B00DDDA2E /* SPTableContentDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17386E0D1519257E002DC206 /* SPTableContentDelegate.m */; };
+		C9EA7809183E426B00DDDA2E /* SPUserManagerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17381855151FB34E0078FFE2 /* SPUserManagerDelegate.m */; };
+		C9EA780A183E426B00DDDA2E /* SPExportInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BA2A3115275D8600389803 /* SPExportInterfaceController.m */; };
+		C9EA780B183E426B00DDDA2E /* SPWindowControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D3583E1533768E00A654D7 /* SPWindowControllerDelegate.m */; };
+		C9EA780C183E426B00DDDA2E /* SPFavoritesExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1798F1821550175B004B0AB8 /* SPFavoritesExporter.m */; };
+		C9EA780D183E426B00DDDA2E /* SPFavoritesImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1798F1851550175B004B0AB8 /* SPFavoritesImporter.m */; };
+		C9EA780E183E426B00DDDA2E /* SPConnectionControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1798F18A1550178E004B0AB8 /* SPConnectionControllerDataSource.m */; };
+		C9EA780F183E426B00DDDA2E /* SPConnectionControllerInitializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1798F18C1550178E004B0AB8 /* SPConnectionControllerInitializer.m */; };
+		C9EA7810183E426B00DDDA2E /* SPConnectionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1798F18E1550178E004B0AB8 /* SPConnectionHandler.m */; };
+		C9EA7811183E426B00DDDA2E /* SPGroupNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1798F1941550181B004B0AB8 /* SPGroupNode.m */; };
+		C9EA7812183E426B00DDDA2E /* SPMutableArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1798F19715501838004B0AB8 /* SPMutableArrayAdditions.m */; };
+		C9EA7813183E426B00DDDA2E /* SPTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1798F19A1550185B004B0AB8 /* SPTreeNode.m */; };
+		C9EA7814183E426B00DDDA2E /* SPFlippedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1798F19D15501892004B0AB8 /* SPFlippedView.m */; };
+		C9EA7815183E426B00DDDA2E /* SPViewCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D5B49D1553059F00EF3BB3 /* SPViewCopy.m */; };
+		C9EA7816183E426B00DDDA2E /* SPBundleCommandRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 176E14D015570FE300FAF326 /* SPBundleCommandRunner.m */; };
+		C9EA7817183E426B00DDDA2E /* SPTableStructureLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 1748D50B15A4444F003562F2 /* SPTableStructureLoading.m */; };
+		C9EA7818183E426B00DDDA2E /* SPWindowManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1748D58515A83E54003562F2 /* SPWindowManagement.m */; };
+		C9EA7819183E426B00DDDA2E /* SPDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DF9F3215AB26C2003B4330 /* SPDateAdditions.m */; };
+		C9EA781A183E426B00DDDA2E /* SPSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DF9F7215AB8509003B4330 /* SPSplitView.m */; };
+		C9EA781B183E426B00DDDA2E /* BGHUDButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DFC91515CB3501003B4330 /* BGHUDButtonCell.m */; };
+		C9EA781C183E426B00DDDA2E /* SPTableContentFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 171B374015DA654300EBC7AB /* SPTableContentFilter.m */; };
+		C9EA781D183E426B00DDDA2E /* SPThreadAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5843E246162B555B00EAA6D1 /* SPThreadAdditions.m */; };
+		C9EA781E183E426B00DDDA2E /* SPTableTriggersDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17005CB216D6CF0000AF81F4 /* SPTableTriggersDelegate.m */; };
+		C9EA781F183E426B00DDDA2E /* SPUserManagerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D29FDF16E96306002EB401 /* SPUserManagerDataSource.m */; };
+		C9EA7820183E426B00DDDA2E /* SPComboPopupButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D2A6A616FBDEFF002EB401 /* SPComboPopupButton.m */; };
+		C9EA7821183E426B00DDDA2E /* SPProcessListControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 17846BA3170C962E00414499 /* SPProcessListControllerDataSource.m */; };
+		C9EA7822183E426B00DDDA2E /* SPCharsetCollationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 501B1D171728A3DA0017C92E /* SPCharsetCollationHelper.m */; };
+		C9EA7823183E426B00DDDA2E /* SPColorSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E217B218174246009D3580 /* SPColorSelectorView.m */; };
+		C9EA7824183E426B00DDDA2E /* SPFavoriteColorSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E217B518174280009D3580 /* SPFavoriteColorSupport.m */; };
+		C9EA7826183E426B00DDDA2E /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 296DC8BE0F9091DF002A3258 /* libicucore.dylib */; };
+		C9EA7827183E426B00DDDA2E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		C9EA7828183E426B00DDDA2E /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DECC3340EC2A170008D359E /* Growl.framework */; };
+		C9EA7829183E426B00DDDA2E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EAC0FC0EC87FF900CC579C /* Security.framework */; };
+		C9EA782A183E426B00DDDA2E /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DECC3320EC2A170008D359E /* Sparkle.framework */; };
+		C9EA782B183E426B00DDDA2E /* SPMySQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584D876815140D3500F24774 /* SPMySQL.framework */; };
+		C9EA782C183E426B00DDDA2E /* QueryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E5955314F304000054EE08 /* QueryKit.framework */; };
+		C9EA782D183E426B00DDDA2E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 296DC89E0F8FD336002A3258 /* WebKit.framework */; };
+		C9EA782E183E426B00DDDA2E /* PSMTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B906E611BD989A000826E5 /* PSMTabBar.framework */; };
+		C9EA782F183E426B00DDDA2E /* FeedbackReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586EBD2311418D7C00B3DE45 /* FeedbackReporter.framework */; };
+		C9EA7830183E426B00DDDA2E /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 179ECEC611F265EE009C6A40 /* libbz2.dylib */; };
+		C9EA7831183E426B00DDDA2E /* UniversalDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C6C71511FBB17200A3F5E9 /* UniversalDetector.framework */; };
+		C9EA7832183E426B00DDDA2E /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DC0D5E1293293400B76DA5 /* ShortcutRecorder.framework */; };
+		C9EA7834183E426B00DDDA2E /* grabber-horizontal.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E6419D0EF02036001BC333 /* grabber-horizontal.png */; };
+		C9EA7835183E426B00DDDA2E /* grabber-vertical.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E6419E0EF02036001BC333 /* grabber-vertical.png */; };
+		C9EA7836183E426B00DDDA2E /* toolbar-switch-to-structure.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E641BE0EF02036001BC333 /* toolbar-switch-to-structure.png */; };
+		C9EA7837183E426B00DDDA2E /* toolbar-switch-to-table-info.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E641BF0EF02036001BC333 /* toolbar-switch-to-table-info.png */; };
+		C9EA7838183E426B00DDDA2E /* DBView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17E642060EF020CB001BC333 /* DBView.xib */; };
+		C9EA7839183E426B00DDDA2E /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 17E641F50EF02088001BC333 /* Growl Registration Ticket.growlRegDict */; };
+		C9EA783A183E426B00DDDA2E /* sequel-pro.scriptSuite in Resources */ = {isa = PBXBuildFile; fileRef = 17E641F70EF02088001BC333 /* sequel-pro.scriptSuite */; };
+		C9EA783B183E426B00DDDA2E /* sequel-pro.scriptTerminology in Resources */ = {isa = PBXBuildFile; fileRef = 17E641F80EF02088001BC333 /* sequel-pro.scriptTerminology */; };
+		C9EA783C183E426B00DDDA2E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1761FD460EF03A6F00331368 /* MainMenu.xib */; };
+		C9EA783D183E426B00DDDA2E /* table-property.png in Resources */ = {isa = PBXBuildFile; fileRef = B5E2C5F90F2353B5007446E0 /* table-property.png */; };
+		C9EA783E183E426B00DDDA2E /* ConnectionErrorDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58186D1F0F4CB38900851FE9 /* ConnectionErrorDialog.xib */; };
+		C9EA783F183E426B00DDDA2E /* sparkle-public-key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 5885940E0F7AEE6000ED0E67 /* sparkle-public-key.pem */; };
+		C9EA7840183E426B00DDDA2E /* ExportDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5E92F170F75B2D100012500 /* ExportDialog.xib */; };
+		C9EA7841183E426B00DDDA2E /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = B57747D00F7A891A003B34F9 /* Preferences.xib */; };
+		C9EA7842183E426B00DDDA2E /* database.png in Resources */ = {isa = PBXBuildFile; fileRef = B577483A0F7A8B57003B34F9 /* database.png */; };
+		C9EA7843183E426B00DDDA2E /* PreferenceDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = B58731270F838C9E00087794 /* PreferenceDefaults.plist */; };
+		C9EA7844183E426B00DDDA2E /* Console.xib in Resources */ = {isa = PBXBuildFile; fileRef = B52460D90F8EF93B00171639 /* Console.xib */; };
+		C9EA7845183E426B00DDDA2E /* SPMySQLHelpTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = BC2C8E210FA8C2DB008468C7 /* SPMySQLHelpTemplate.html */; };
+		C9EA7846183E426B00DDDA2E /* func-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 384582C30FB95FF800DDACB6 /* func-small.png */; };
+		C9EA7847183E426B00DDDA2E /* proc-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 384582C60FB9603600DDACB6 /* proc-small.png */; };
+		C9EA7848183E426B00DDDA2E /* database-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 177E792B0FCB54EC00E9E122 /* database-small.png */; };
+		C9EA7849183E426B00DDDA2E /* dummy-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 177E792C0FCB54EC00E9E122 /* dummy-small.png */; };
+		C9EA784A183E426B00DDDA2E /* PrintAccessory.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58DA73B0FF8BBA500FDDACD /* PrintAccessory.xib */; };
+		C9EA784B183E426B00DDDA2E /* SSHQuestionDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = B58DA7390FF8BB9E00FDDACD /* SSHQuestionDialog.xib */; };
+		C9EA784C183E426B00DDDA2E /* toolbar-switch-to-table-relations.png in Resources */ = {isa = PBXBuildFile; fileRef = B54F25E50FD909C400E2CF36 /* toolbar-switch-to-table-relations.png */; };
+		C9EA784D183E426B00DDDA2E /* ssh-connected.png in Resources */ = {isa = PBXBuildFile; fileRef = 588B2CC50FE5641E00EC5FC0 /* ssh-connected.png */; };
+		C9EA784E183E426B00DDDA2E /* ssh-connecting.png in Resources */ = {isa = PBXBuildFile; fileRef = 588B2CC60FE5641E00EC5FC0 /* ssh-connecting.png */; };
+		C9EA784F183E426B00DDDA2E /* ssh-disconnected.png in Resources */ = {isa = PBXBuildFile; fileRef = 588B2CC70FE5641E00EC5FC0 /* ssh-disconnected.png */; };
+		C9EA7850183E426B00DDDA2E /* ConnectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5822CADF10011C8000DCC3D6 /* ConnectionView.xib */; };
+		C9EA7851183E426B00DDDA2E /* FieldEditorSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA6F62F100FA7D700E80253 /* FieldEditorSheet.xib */; };
+		C9EA7852183E426B00DDDA2E /* link-arrow-clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D2E22B101222870063EF1D /* link-arrow-clicked.png */; };
+		C9EA7853183E426B00DDDA2E /* link-arrow-highlighted-clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D2E22C101222870063EF1D /* link-arrow-highlighted-clicked.png */; };
+		C9EA7854183E426B00DDDA2E /* link-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D2E22D101222870063EF1D /* link-arrow.png */; };
+		C9EA7855183E426B00DDDA2E /* link-arrow-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 581068B51015411B0068C6E2 /* link-arrow-highlighted.png */; };
+		C9EA7856183E426B00DDDA2E /* SequelProTunnelAssistant in Resources */ = {isa = PBXBuildFile; fileRef = 58CDB3360FCE13C900F8ACA3 /* SequelProTunnelAssistant */; };
+		C9EA7857183E426B00DDDA2E /* UserManagerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D90B7A0101E0D1500D116A1 /* UserManagerView.xib */; };
+		C9EA7858183E426B00DDDA2E /* EncodingPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC8B0DAD104004F900FC02EC /* EncodingPopupView.xib */; };
+		C9EA7859183E426B00DDDA2E /* SaveSPFAccessory.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCBD7FA104408B000D4C50A /* SaveSPFAccessory.xib */; };
+		C9EA785A183E426B00DDDA2E /* QueryFavoriteManager.xib in Resources */ = {isa = PBXBuildFile; fileRef = 173C4360104455CA001F3A30 /* QueryFavoriteManager.xib */; };
+		C9EA785B183E426B00DDDA2E /* ContentFilters.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCB56196106F893F00167321 /* ContentFilters.plist */; };
+		C9EA785C183E426B00DDDA2E /* EditorQuickLookTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = BCB5619A106F8A1B00167321 /* EditorQuickLookTypes.plist */; };
+		C9EA785D183E426B00DDDA2E /* ContentFilterManager.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC675A15107203BA00C5ACD4 /* ContentFilterManager.xib */; };
+		C9EA785E183E426B00DDDA2E /* ImportAccessory.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC65C3B0107CE3EE003F7B02 /* ImportAccessory.xib */; };
+		C9EA785F183E426B00DDDA2E /* ProgressIndicatorLayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 582A05A7108A5CCF0027D42B /* ProgressIndicatorLayer.xib */; };
+		C9EA7860183E426B00DDDA2E /* DatabaseProcessList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 174CE11C10AB80B5008F892B /* DatabaseProcessList.xib */; };
+		C9EA7861183E426B00DDDA2E /* DatabaseServerVariables.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1792C13010AD752100ABE758 /* DatabaseServerVariables.xib */; };
+		C9EA7862183E426B00DDDA2E /* AboutPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17CC97F510B4AC6C0034CD7A /* AboutPanel.xib */; };
+		C9EA7863183E426B00DDDA2E /* License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 17CC993A10B4C9C80034CD7A /* License.rtf */; };
+		C9EA7864183E426B00DDDA2E /* button_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C3506410B9A56C00D37E14 /* button_left.png */; };
+		C9EA7865183E426B00DDDA2E /* button_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C3506610B9A57300D37E14 /* button_right.png */; };
+		C9EA7866183E426B00DDDA2E /* button_pagination.png in Resources */ = {isa = PBXBuildFile; fileRef = 58C3506A10B9AA8B00D37E14 /* button_pagination.png */; };
+		C9EA7867183E426B00DDDA2E /* ContentPaginationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58C3507310B9ADEA00D37E14 /* ContentPaginationView.xib */; };
+		C9EA7868183E426B00DDDA2E /* DataMigrationDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC30C00F111C98BD002701C9 /* DataMigrationDialog.xib */; };
+		C9EA7869183E426B00DDDA2E /* CompletionTokens.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC962D651144EACA006170BD /* CompletionTokens.plist */; };
+		C9EA786A183E426B00DDDA2E /* SPTableInfoPrintTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = 17E0937D114AE154007FC1B4 /* SPTableInfoPrintTemplate.html */; };
+		C9EA786B183E426B00DDDA2E /* toolbar-switch-to-table-triggers.png in Resources */ = {isa = PBXBuildFile; fileRef = B51D6B9D114C310C0074704E /* toolbar-switch-to-table-triggers.png */; };
+		C9EA786C183E426B00DDDA2E /* SPPrintTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = 17DD52B6115071D0007D8950 /* SPPrintTemplate.html */; };
+		C9EA786D183E426B00DDDA2E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 17F90E2B1210B34900274C98 /* Credits.rtf */; };
+		C9EA786E183E426B00DDDA2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17DD52C1115074B3007D8950 /* InfoPlist.strings */; };
+		C9EA786F183E426B00DDDA2E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17DD52C4115074CB007D8950 /* Localizable.strings */; };
+		C9EA7870183E426B00DDDA2E /* Navigator.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC93FBBB11514ADE005F1D9F /* Navigator.xib */; };
+		C9EA7871183E426B00DDDA2E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58A8A72611A0149100B95749 /* MainWindow.xib */; };
+		C9EA7872183E426B00DDDA2E /* IndexesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17A7773611C52E61001E27B4 /* IndexesView.xib */; };
+		C9EA7873183E426B00DDDA2E /* KeyTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 58E205FB1234FE4F00A97059 /* KeyTemplate.pdf */; };
+		C9EA7874183E426B00DDDA2E /* titlebarlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 58A137CC123ED5E6000B1B75 /* titlebarlock.png */; };
+		C9EA7875183E426B00DDDA2E /* BundleEditor.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCB7478128D4FD100339E25 /* BundleEditor.xib */; };
+		C9EA7876183E426B00DDDA2E /* BundleHTMLOutput.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC77C5DF129AA67F009AD832 /* BundleHTMLOutput.xib */; };
+		C9EA7877183E426B00DDDA2E /* cancel-clicked-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = BC09D7D812A786FB0030DB64 /* cancel-clicked-highlighted.png */; };
+		C9EA7878183E426B00DDDA2E /* cancel-clicked.png in Resources */ = {isa = PBXBuildFile; fileRef = BC09D7D912A786FB0030DB64 /* cancel-clicked.png */; };
+		C9EA7879183E426B00DDDA2E /* cancel-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = BC09D7DA12A786FB0030DB64 /* cancel-highlighted.png */; };
+		C9EA787A183E426B00DDDA2E /* cancel-hovered-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = BC09D7DB12A786FB0030DB64 /* cancel-hovered-highlighted.png */; };
+		C9EA787B183E426B00DDDA2E /* cancel-hovered.png in Resources */ = {isa = PBXBuildFile; fileRef = BC09D7DC12A786FB0030DB64 /* cancel-hovered.png */; };
+		C9EA787C183E426B00DDDA2E /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = BC09D7DD12A786FB0030DB64 /* cancel.png */; };
+		C9EA787D183E426B00DDDA2E /* quick-connect-icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 58F48AA2161D03C6008536A1 /* quick-connect-icon.pdf */; };
+		C9EA787E183E426B00DDDA2E /* quick-connect-icon-white.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 58F48B2D161D08C0008536A1 /* quick-connect-icon-white.pdf */; };
+		C9EA787F183E426B00DDDA2E /* key-icon-alternate.png in Resources */ = {isa = PBXBuildFile; fileRef = 5843DA68161FA35600EAA6D1 /* key-icon-alternate.png */; };
+		C9EA7880183E426B00DDDA2E /* key-icon-alternate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5843DA69161FA35600EAA6D1 /* key-icon-alternate@2x.png */; };
+		C9EA7881183E426B00DDDA2E /* key-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5843DA6A161FA35600EAA6D1 /* key-icon.png */; };
+		C9EA7882183E426B00DDDA2E /* key-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5843DA6B161FA35600EAA6D1 /* key-icon@2x.png */; };
+		C9EA7883183E426B00DDDA2E /* toolbar-switch-to-table-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F9270F162D38D70051CB2E /* toolbar-switch-to-table-info@2x.png */; };
+		C9EA7884183E426B00DDDA2E /* toolbar-switch-to-browse.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F92711162D39E60051CB2E /* toolbar-switch-to-browse.png */; };
+		C9EA7885183E426B00DDDA2E /* toolbar-switch-to-browse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F92713162D39FE0051CB2E /* toolbar-switch-to-browse@2x.png */; };
+		C9EA7886183E426B00DDDA2E /* database-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AD7C771676138000234EEE /* database-small@2x.png */; };
+		C9EA7887183E426B00DDDA2E /* toolbar-switch-to-sql.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AD7C791676158C00234EEE /* toolbar-switch-to-sql.png */; };
+		C9EA7888183E426B00DDDA2E /* toolbar-switch-to-sql@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AD7C7A1676158C00234EEE /* toolbar-switch-to-sql@2x.png */; };
+		C9EA7889183E426B00DDDA2E /* button_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AD7C7D167619B400234EEE /* button_refresh.png */; };
+		C9EA788A183E426B00DDDA2E /* button_refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AD7C7E167619B400234EEE /* button_refresh@2x.png */; };
+		C9EA788B183E426B00DDDA2E /* button_action.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AD7C8116761B3300234EEE /* button_action.png */; };
+		C9EA788C183E426B00DDDA2E /* button_action@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AD7C8216761B3300234EEE /* button_action@2x.png */; };
+		C9EA788D183E426B00DDDA2E /* button_info_pane_hide.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AD7C851676204300234EEE /* button_info_pane_hide.png */; };
+		C9EA788E183E426B00DDDA2E /* button_info_pane_hide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AD7C861676204300234EEE /* button_info_pane_hide@2x.png */; };
+		C9EA788F183E426B00DDDA2E /* button_info_pane_show.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AD7C871676204300234EEE /* button_info_pane_show.png */; };
+		C9EA7890183E426B00DDDA2E /* button_info_pane_show@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AD7C881676204300234EEE /* button_info_pane_show@2x.png */; };
+		C9EA7891183E426B00DDDA2E /* appIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 58FEEF3C1676D14B009CD478 /* appIcon.icns */; };
+		C9EA7892183E426B00DDDA2E /* Generic.icns in Resources */ = {isa = PBXBuildFile; fileRef = 58FEEF421676D160009CD478 /* Generic.icns */; };
+		C9EA7893183E426B00DDDA2E /* SPF.icns in Resources */ = {isa = PBXBuildFile; fileRef = 58FEEF431676D160009CD478 /* SPF.icns */; };
+		C9EA7894183E426B00DDDA2E /* SQL.icns in Resources */ = {isa = PBXBuildFile; fileRef = 58FEEF441676D160009CD478 /* SQL.icns */; };
+		C9EA7895183E426B00DDDA2E /* button_pane_hide.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C9943B1678A117001F5DA8 /* button_pane_hide.png */; };
+		C9EA7896183E426B00DDDA2E /* button_pane_hide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C9943C1678A117001F5DA8 /* button_pane_hide@2x.png */; };
+		C9EA7897183E426B00DDDA2E /* button_bar_spacer.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C9943F1678A439001F5DA8 /* button_bar_spacer.png */; };
+		C9EA7898183E426B00DDDA2E /* button_pane_show.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C994431678A5CD001F5DA8 /* button_pane_show.png */; };
+		C9EA7899183E426B00DDDA2E /* button_pane_show@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C994441678A5CD001F5DA8 /* button_pane_show@2x.png */; };
+		C9EA789A183E426B00DDDA2E /* table-small-square.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C994471678B3E6001F5DA8 /* table-small-square.png */; };
+		C9EA789B183E426B00DDDA2E /* table-small-square@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C994481678B3E6001F5DA8 /* table-small-square@2x.png */; };
+		C9EA789C183E426B00DDDA2E /* table-small.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C9944B1678BCFA001F5DA8 /* table-small.png */; };
+		C9EA789D183E426B00DDDA2E /* table-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C9944C1678BCFA001F5DA8 /* table-small@2x.png */; };
+		C9EA789E183E426B00DDDA2E /* link-arrow-clicked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E9399168296F3003459FD /* link-arrow-clicked@2x.png */; };
+		C9EA789F183E426B00DDDA2E /* link-arrow-highlighted-clicked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E939A168296F3003459FD /* link-arrow-highlighted-clicked@2x.png */; };
+		C9EA78A0183E426B00DDDA2E /* link-arrow-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E939B168296F3003459FD /* link-arrow-highlighted@2x.png */; };
+		C9EA78A1183E426B00DDDA2E /* link-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E939C168296F3003459FD /* link-arrow@2x.png */; };
+		C9EA78A2183E426B00DDDA2E /* button_add_folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E93F5168298C6003459FD /* button_add_folder.png */; };
+		C9EA78A3183E426B00DDDA2E /* button_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E93FF168299E3003459FD /* button_add.png */; };
+		C9EA78A4183E426B00DDDA2E /* button_bar_handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E940116829B0A003459FD /* button_bar_handle.png */; };
+		C9EA78A5183E426B00DDDA2E /* button_bar_spacer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E940D1682A2AD003459FD /* button_bar_spacer@2x.png */; };
+		C9EA78A6183E426B00DDDA2E /* button_clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E94151682A463003459FD /* button_clear.png */; };
+		C9EA78A7183E426B00DDDA2E /* button_duplicate.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E94171682A4B4003459FD /* button_duplicate.png */; };
+		C9EA78A8183E426B00DDDA2E /* button_edit_mode_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E941D16835DD4003459FD /* button_edit_mode_selected.png */; };
+		C9EA78A9183E426B00DDDA2E /* button_edit_mode.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E941E16835DD4003459FD /* button_edit_mode.png */; };
+		C9EA78AA183E426B00DDDA2E /* button_edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E942316835EA9003459FD /* button_edit.png */; };
+		C9EA78AB183E426B00DDDA2E /* button_remove.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E942516835FAE003459FD /* button_remove.png */; };
+		C9EA78AC183E426B00DDDA2E /* button_select_all.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E94291683628C003459FD /* button_select_all.png */; };
+		C9EA78AD183E426B00DDDA2E /* button_select_none.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E942A1683628C003459FD /* button_select_none.png */; };
+		C9EA78AE183E426B00DDDA2E /* clearconsole.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E942D1683658A003459FD /* clearconsole.png */; };
+		C9EA78AF183E426B00DDDA2E /* field-small-square.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E9449168374C1003459FD /* field-small-square.png */; };
+		C9EA78B0183E426B00DDDA2E /* hideconsole.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E944B16837986003459FD /* hideconsole.png */; };
+		C9EA78B1183E426B00DDDA2E /* network-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E944F16837AA9003459FD /* network-small.png */; };
+		C9EA78B2183E426B00DDDA2E /* showconsole.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E946F16837DB2003459FD /* showconsole.png */; };
+		C9EA78B3183E426B00DDDA2E /* sync_arrows_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E947D168380D6003459FD /* sync_arrows_01.png */; };
+		C9EA78B4183E426B00DDDA2E /* sync_arrows_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E947E168380D6003459FD /* sync_arrows_02.png */; };
+		C9EA78B5183E426B00DDDA2E /* sync_arrows_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E947F168380D6003459FD /* sync_arrows_03.png */; };
+		C9EA78B6183E426B00DDDA2E /* sync_arrows_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E9480168380D6003459FD /* sync_arrows_04.png */; };
+		C9EA78B7183E426B00DDDA2E /* sync_arrows_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E9481168380D6003459FD /* sync_arrows_05.png */; };
+		C9EA78B8183E426B00DDDA2E /* sync_arrows_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E9482168380D6003459FD /* sync_arrows_06.png */; };
+		C9EA78B9183E426B00DDDA2E /* table-view-small-square.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E948D168383F0003459FD /* table-view-small-square.png */; };
+		C9EA78BA183E426B00DDDA2E /* table-view-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E948E168383F0003459FD /* table-view-small.png */; };
+		C9EA78BB183E426B00DDDA2E /* toolbar-preferences-autoupdate.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E94A716839AD5003459FD /* toolbar-preferences-autoupdate.png */; };
+		C9EA78BC183E426B00DDDA2E /* toolbar-preferences-general.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E94A916839AEF003459FD /* toolbar-preferences-general.png */; };
+		C9EA78BD183E426B00DDDA2E /* toolbar-preferences-notifications.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E94AD16839C4A003459FD /* toolbar-preferences-notifications.png */; };
+		C9EA78BE183E426B00DDDA2E /* toolbar-preferences-tables.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E94C616839D83003459FD /* toolbar-preferences-tables.png */; };
+		C9EA78BF183E426B00DDDA2E /* toolbar-preferences-network.png in Resources */ = {isa = PBXBuildFile; fileRef = 582E94F716839E83003459FD /* toolbar-preferences-network.png */; };
+		C9EA78C1183E426B00DDDA2E /* PSMTabBar.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 58B906E611BD989A000826E5 /* PSMTabBar.framework */; };
+		C9EA78C2183E426B00DDDA2E /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4DECC3340EC2A170008D359E /* Growl.framework */; };
+		C9EA78C3183E426B00DDDA2E /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 4DECC3320EC2A170008D359E /* Sparkle.framework */; };
+		C9EA78C4183E426B00DDDA2E /* FeedbackReporter.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 586EBD2311418D7C00B3DE45 /* FeedbackReporter.framework */; };
+		C9EA78C5183E426B00DDDA2E /* UniversalDetector.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 58C6C71511FBB17200A3F5E9 /* UniversalDetector.framework */; };
+		C9EA78C6183E426B00DDDA2E /* ShortcutRecorder.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 58DC0D5E1293293400B76DA5 /* ShortcutRecorder.framework */; };
+		C9EA78C7183E426B00DDDA2E /* QueryKit.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 17E5955314F304000054EE08 /* QueryKit.framework */; };
+		C9EA78C8183E426B00DDDA2E /* SPMySQL.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 584D876815140D3500F24774 /* SPMySQL.framework */; };
+		C9EA78CA183E426B00DDDA2E /* Sequel Pro.qlgenerator in Copy QuickLook Plugins */ = {isa = PBXBuildFile; fileRef = 584754C2120A04560057631F /* Sequel Pro.qlgenerator */; };
 		C9F92710162D38D70051CB2E /* toolbar-switch-to-table-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F9270F162D38D70051CB2E /* toolbar-switch-to-table-info@2x.png */; };
 		C9F92712162D39E60051CB2E /* toolbar-switch-to-browse.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F92711162D39E60051CB2E /* toolbar-switch-to-browse.png */; };
 		C9F92714162D39FE0051CB2E /* toolbar-switch-to-browse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F92713162D39FE0051CB2E /* toolbar-switch-to-browse@2x.png */; };
@@ -541,6 +879,48 @@
 			remoteGlobalIDString = 58CDB3350FCE13C900F8ACA3;
 			remoteInfo = TunnelPassphraseRequester;
 		};
+		C9EA7769183E426B00DDDA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 584D876015140D3500F24774 /* SPMySQLFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = SPMySQL.framework;
+		};
+		C9EA776B183E426B00DDDA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B906E511BD989A000826E5;
+			remoteInfo = PSMTabBar;
+		};
+		C9EA776D183E426B00DDDA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58CDB3350FCE13C900F8ACA3;
+			remoteInfo = TunnelPassphraseRequester;
+		};
+		C9EA776F183E426B00DDDA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58B9096011C3A42B000826E5;
+			remoteInfo = xibLocalizationPostprocessor;
+		};
+		C9EA7771183E426B00DDDA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 584754C1120A04560057631F;
+			remoteInfo = "Sequel Pro QLGenerator";
+		};
+		C9EA7773183E426B00DDDA2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17E5954E14F304000054EE08 /* QueryKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = QueryKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -580,6 +960,35 @@
 			dstSubfolderSpec = 1;
 			files = (
 				5847577D120A1E8A0057631F /* Sequel Pro.qlgenerator in Copy QuickLook Plugins */,
+			);
+			name = "Copy QuickLook Plugins";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EA78C0183E426B00DDDA2E /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C9EA78C1183E426B00DDDA2E /* PSMTabBar.framework in Copy Frameworks */,
+				C9EA78C2183E426B00DDDA2E /* Growl.framework in Copy Frameworks */,
+				C9EA78C3183E426B00DDDA2E /* Sparkle.framework in Copy Frameworks */,
+				C9EA78C4183E426B00DDDA2E /* FeedbackReporter.framework in Copy Frameworks */,
+				C9EA78C5183E426B00DDDA2E /* UniversalDetector.framework in Copy Frameworks */,
+				C9EA78C6183E426B00DDDA2E /* ShortcutRecorder.framework in Copy Frameworks */,
+				C9EA78C7183E426B00DDDA2E /* QueryKit.framework in Copy Frameworks */,
+				C9EA78C8183E426B00DDDA2E /* SPMySQL.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EA78C9183E426B00DDDA2E /* Copy QuickLook Plugins */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/QuickLook;
+			dstSubfolderSpec = 1;
+			files = (
+				C9EA78CA183E426B00DDDA2E /* Sequel Pro.qlgenerator in Copy QuickLook Plugins */,
 			);
 			name = "Copy QuickLook Plugins";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1239,6 +1648,7 @@
 		C9C994481678B3E6001F5DA8 /* table-small-square@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-small-square@2x.png"; sourceTree = "<group>"; };
 		C9C9944B1678BCFA001F5DA8 /* table-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-small.png"; sourceTree = "<group>"; };
 		C9C9944C1678BCFA001F5DA8 /* table-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "table-small@2x.png"; sourceTree = "<group>"; };
+		C9EA78D0183E426B00DDDA2E /* Sequel Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sequel Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F9270F162D38D70051CB2E /* toolbar-switch-to-table-info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar-switch-to-table-info@2x.png"; sourceTree = "<group>"; };
 		C9F92711162D39E60051CB2E /* toolbar-switch-to-browse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar-switch-to-browse.png"; sourceTree = "<group>"; };
 		C9F92713162D39FE0051CB2E /* toolbar-switch-to-browse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar-switch-to-browse@2x.png"; sourceTree = "<group>"; };
@@ -1304,6 +1714,26 @@
 				179ECECA11F265FC009C6A40 /* libbz2.dylib in Frameworks */,
 				58C6C71611FBB17200A3F5E9 /* UniversalDetector.framework in Frameworks */,
 				58DC0D5F1293293400B76DA5 /* ShortcutRecorder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9EA7825183E426B00DDDA2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9EA7826183E426B00DDDA2E /* libicucore.dylib in Frameworks */,
+				C9EA7827183E426B00DDDA2E /* Cocoa.framework in Frameworks */,
+				C9EA7828183E426B00DDDA2E /* Growl.framework in Frameworks */,
+				C9EA7829183E426B00DDDA2E /* Security.framework in Frameworks */,
+				C9EA782A183E426B00DDDA2E /* Sparkle.framework in Frameworks */,
+				C9EA782B183E426B00DDDA2E /* SPMySQL.framework in Frameworks */,
+				C9EA782C183E426B00DDDA2E /* QueryKit.framework in Frameworks */,
+				C9EA782D183E426B00DDDA2E /* WebKit.framework in Frameworks */,
+				C9EA782E183E426B00DDDA2E /* PSMTabBar.framework in Frameworks */,
+				C9EA782F183E426B00DDDA2E /* FeedbackReporter.framework in Frameworks */,
+				C9EA7830183E426B00DDDA2E /* libbz2.dylib in Frameworks */,
+				C9EA7831183E426B00DDDA2E /* UniversalDetector.framework in Frameworks */,
+				C9EA7832183E426B00DDDA2E /* ShortcutRecorder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2289,6 +2719,7 @@
 				58B906E611BD989A000826E5 /* PSMTabBar.framework */,
 				58B9096111C3A42B000826E5 /* xibLocalizationPostprocessor */,
 				584754C2120A04560057631F /* Sequel Pro.qlgenerator */,
+				C9EA78D0183E426B00DDDA2E /* Sequel Pro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2728,6 +3159,33 @@
 			productReference = 8D15AC370486D014006FF6A4 /* Sequel Pro.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C9EA7767183E426B00DDDA2E /* Sequel Pro - Latest OS X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9EA78CC183E426B00DDDA2E /* Build configuration list for PBXNativeTarget "Sequel Pro - Latest OS X" */;
+			buildPhases = (
+				C9EA7774183E426B00DDDA2E /* Sources */,
+				C9EA7825183E426B00DDDA2E /* Frameworks */,
+				C9EA7833183E426B00DDDA2E /* Resources */,
+				C9EA78C0183E426B00DDDA2E /* Copy Frameworks */,
+				C9EA78C9183E426B00DDDA2E /* Copy QuickLook Plugins */,
+				C9EA78CB183E426B00DDDA2E /* Run Scripts */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9EA7768183E426B00DDDA2E /* PBXTargetDependency */,
+				C9EA776A183E426B00DDDA2E /* PBXTargetDependency */,
+				C9EA776C183E426B00DDDA2E /* PBXTargetDependency */,
+				C9EA776E183E426B00DDDA2E /* PBXTargetDependency */,
+				C9EA7770183E426B00DDDA2E /* PBXTargetDependency */,
+				C9EA7772183E426B00DDDA2E /* PBXTargetDependency */,
+			);
+			name = "Sequel Pro - Latest OS X";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "sequel-pro";
+			productReference = C9EA78D0183E426B00DDDA2E /* Sequel Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2769,6 +3227,7 @@
 				58B9096011C3A42B000826E5 /* xibLocalizationPostprocessor */,
 				584754C1120A04560057631F /* Sequel Pro QLGenerator */,
 				1798AB1C12676EA0000D946A /* Localize */,
+				C9EA7767183E426B00DDDA2E /* Sequel Pro - Latest OS X */,
 			);
 		};
 /* End PBXProject section */
@@ -2986,6 +3445,153 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9EA7833183E426B00DDDA2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9EA7834183E426B00DDDA2E /* grabber-horizontal.png in Resources */,
+				C9EA7835183E426B00DDDA2E /* grabber-vertical.png in Resources */,
+				C9EA7836183E426B00DDDA2E /* toolbar-switch-to-structure.png in Resources */,
+				C9EA7837183E426B00DDDA2E /* toolbar-switch-to-table-info.png in Resources */,
+				C9EA7838183E426B00DDDA2E /* DBView.xib in Resources */,
+				C9EA7839183E426B00DDDA2E /* Growl Registration Ticket.growlRegDict in Resources */,
+				C9EA783A183E426B00DDDA2E /* sequel-pro.scriptSuite in Resources */,
+				C9EA783B183E426B00DDDA2E /* sequel-pro.scriptTerminology in Resources */,
+				C9EA783C183E426B00DDDA2E /* MainMenu.xib in Resources */,
+				C9EA783D183E426B00DDDA2E /* table-property.png in Resources */,
+				C9EA783E183E426B00DDDA2E /* ConnectionErrorDialog.xib in Resources */,
+				C9EA783F183E426B00DDDA2E /* sparkle-public-key.pem in Resources */,
+				C9EA7840183E426B00DDDA2E /* ExportDialog.xib in Resources */,
+				C9EA7841183E426B00DDDA2E /* Preferences.xib in Resources */,
+				C9EA7842183E426B00DDDA2E /* database.png in Resources */,
+				C9EA7843183E426B00DDDA2E /* PreferenceDefaults.plist in Resources */,
+				C9EA7844183E426B00DDDA2E /* Console.xib in Resources */,
+				C9EA7845183E426B00DDDA2E /* SPMySQLHelpTemplate.html in Resources */,
+				C9EA7846183E426B00DDDA2E /* func-small.png in Resources */,
+				C9EA7847183E426B00DDDA2E /* proc-small.png in Resources */,
+				C9EA7848183E426B00DDDA2E /* database-small.png in Resources */,
+				C9EA7849183E426B00DDDA2E /* dummy-small.png in Resources */,
+				C9EA784A183E426B00DDDA2E /* PrintAccessory.xib in Resources */,
+				C9EA784B183E426B00DDDA2E /* SSHQuestionDialog.xib in Resources */,
+				C9EA784C183E426B00DDDA2E /* toolbar-switch-to-table-relations.png in Resources */,
+				C9EA784D183E426B00DDDA2E /* ssh-connected.png in Resources */,
+				C9EA784E183E426B00DDDA2E /* ssh-connecting.png in Resources */,
+				C9EA784F183E426B00DDDA2E /* ssh-disconnected.png in Resources */,
+				C9EA7850183E426B00DDDA2E /* ConnectionView.xib in Resources */,
+				C9EA7851183E426B00DDDA2E /* FieldEditorSheet.xib in Resources */,
+				C9EA7852183E426B00DDDA2E /* link-arrow-clicked.png in Resources */,
+				C9EA7853183E426B00DDDA2E /* link-arrow-highlighted-clicked.png in Resources */,
+				C9EA7854183E426B00DDDA2E /* link-arrow.png in Resources */,
+				C9EA7855183E426B00DDDA2E /* link-arrow-highlighted.png in Resources */,
+				C9EA7856183E426B00DDDA2E /* SequelProTunnelAssistant in Resources */,
+				C9EA7857183E426B00DDDA2E /* UserManagerView.xib in Resources */,
+				C9EA7858183E426B00DDDA2E /* EncodingPopupView.xib in Resources */,
+				C9EA7859183E426B00DDDA2E /* SaveSPFAccessory.xib in Resources */,
+				C9EA785A183E426B00DDDA2E /* QueryFavoriteManager.xib in Resources */,
+				C9EA785B183E426B00DDDA2E /* ContentFilters.plist in Resources */,
+				C9EA785C183E426B00DDDA2E /* EditorQuickLookTypes.plist in Resources */,
+				C9EA785D183E426B00DDDA2E /* ContentFilterManager.xib in Resources */,
+				C9EA785E183E426B00DDDA2E /* ImportAccessory.xib in Resources */,
+				C9EA785F183E426B00DDDA2E /* ProgressIndicatorLayer.xib in Resources */,
+				C9EA7860183E426B00DDDA2E /* DatabaseProcessList.xib in Resources */,
+				C9EA7861183E426B00DDDA2E /* DatabaseServerVariables.xib in Resources */,
+				C9EA7862183E426B00DDDA2E /* AboutPanel.xib in Resources */,
+				C9EA7863183E426B00DDDA2E /* License.rtf in Resources */,
+				C9EA7864183E426B00DDDA2E /* button_left.png in Resources */,
+				C9EA7865183E426B00DDDA2E /* button_right.png in Resources */,
+				C9EA7866183E426B00DDDA2E /* button_pagination.png in Resources */,
+				C9EA7867183E426B00DDDA2E /* ContentPaginationView.xib in Resources */,
+				C9EA7868183E426B00DDDA2E /* DataMigrationDialog.xib in Resources */,
+				C9EA7869183E426B00DDDA2E /* CompletionTokens.plist in Resources */,
+				C9EA786A183E426B00DDDA2E /* SPTableInfoPrintTemplate.html in Resources */,
+				C9EA786B183E426B00DDDA2E /* toolbar-switch-to-table-triggers.png in Resources */,
+				C9EA786C183E426B00DDDA2E /* SPPrintTemplate.html in Resources */,
+				C9EA786D183E426B00DDDA2E /* Credits.rtf in Resources */,
+				C9EA786E183E426B00DDDA2E /* InfoPlist.strings in Resources */,
+				C9EA786F183E426B00DDDA2E /* Localizable.strings in Resources */,
+				C9EA7870183E426B00DDDA2E /* Navigator.xib in Resources */,
+				C9EA7871183E426B00DDDA2E /* MainWindow.xib in Resources */,
+				C9EA7872183E426B00DDDA2E /* IndexesView.xib in Resources */,
+				C9EA7873183E426B00DDDA2E /* KeyTemplate.pdf in Resources */,
+				C9EA7874183E426B00DDDA2E /* titlebarlock.png in Resources */,
+				C9EA7875183E426B00DDDA2E /* BundleEditor.xib in Resources */,
+				C9EA7876183E426B00DDDA2E /* BundleHTMLOutput.xib in Resources */,
+				C9EA7877183E426B00DDDA2E /* cancel-clicked-highlighted.png in Resources */,
+				C9EA7878183E426B00DDDA2E /* cancel-clicked.png in Resources */,
+				C9EA7879183E426B00DDDA2E /* cancel-highlighted.png in Resources */,
+				C9EA787A183E426B00DDDA2E /* cancel-hovered-highlighted.png in Resources */,
+				C9EA787B183E426B00DDDA2E /* cancel-hovered.png in Resources */,
+				C9EA787C183E426B00DDDA2E /* cancel.png in Resources */,
+				C9EA787D183E426B00DDDA2E /* quick-connect-icon.pdf in Resources */,
+				C9EA787E183E426B00DDDA2E /* quick-connect-icon-white.pdf in Resources */,
+				C9EA787F183E426B00DDDA2E /* key-icon-alternate.png in Resources */,
+				C9EA7880183E426B00DDDA2E /* key-icon-alternate@2x.png in Resources */,
+				C9EA7881183E426B00DDDA2E /* key-icon.png in Resources */,
+				C9EA7882183E426B00DDDA2E /* key-icon@2x.png in Resources */,
+				C9EA7883183E426B00DDDA2E /* toolbar-switch-to-table-info@2x.png in Resources */,
+				C9EA7884183E426B00DDDA2E /* toolbar-switch-to-browse.png in Resources */,
+				C9EA7885183E426B00DDDA2E /* toolbar-switch-to-browse@2x.png in Resources */,
+				C9EA7886183E426B00DDDA2E /* database-small@2x.png in Resources */,
+				C9EA7887183E426B00DDDA2E /* toolbar-switch-to-sql.png in Resources */,
+				C9EA7888183E426B00DDDA2E /* toolbar-switch-to-sql@2x.png in Resources */,
+				C9EA7889183E426B00DDDA2E /* button_refresh.png in Resources */,
+				C9EA788A183E426B00DDDA2E /* button_refresh@2x.png in Resources */,
+				C9EA788B183E426B00DDDA2E /* button_action.png in Resources */,
+				C9EA788C183E426B00DDDA2E /* button_action@2x.png in Resources */,
+				C9EA788D183E426B00DDDA2E /* button_info_pane_hide.png in Resources */,
+				C9EA788E183E426B00DDDA2E /* button_info_pane_hide@2x.png in Resources */,
+				C9EA788F183E426B00DDDA2E /* button_info_pane_show.png in Resources */,
+				C9EA7890183E426B00DDDA2E /* button_info_pane_show@2x.png in Resources */,
+				C9EA7891183E426B00DDDA2E /* appIcon.icns in Resources */,
+				C9EA7892183E426B00DDDA2E /* Generic.icns in Resources */,
+				C9EA7893183E426B00DDDA2E /* SPF.icns in Resources */,
+				C9EA7894183E426B00DDDA2E /* SQL.icns in Resources */,
+				C9EA7895183E426B00DDDA2E /* button_pane_hide.png in Resources */,
+				C9EA7896183E426B00DDDA2E /* button_pane_hide@2x.png in Resources */,
+				C9EA7897183E426B00DDDA2E /* button_bar_spacer.png in Resources */,
+				C9EA7898183E426B00DDDA2E /* button_pane_show.png in Resources */,
+				C9EA7899183E426B00DDDA2E /* button_pane_show@2x.png in Resources */,
+				C9EA789A183E426B00DDDA2E /* table-small-square.png in Resources */,
+				C9EA789B183E426B00DDDA2E /* table-small-square@2x.png in Resources */,
+				C9EA789C183E426B00DDDA2E /* table-small.png in Resources */,
+				C9EA789D183E426B00DDDA2E /* table-small@2x.png in Resources */,
+				C9EA789E183E426B00DDDA2E /* link-arrow-clicked@2x.png in Resources */,
+				C9EA789F183E426B00DDDA2E /* link-arrow-highlighted-clicked@2x.png in Resources */,
+				C9EA78A0183E426B00DDDA2E /* link-arrow-highlighted@2x.png in Resources */,
+				C9EA78A1183E426B00DDDA2E /* link-arrow@2x.png in Resources */,
+				C9EA78A2183E426B00DDDA2E /* button_add_folder.png in Resources */,
+				C9EA78A3183E426B00DDDA2E /* button_add.png in Resources */,
+				C9EA78A4183E426B00DDDA2E /* button_bar_handle.png in Resources */,
+				C9EA78A5183E426B00DDDA2E /* button_bar_spacer@2x.png in Resources */,
+				C9EA78A6183E426B00DDDA2E /* button_clear.png in Resources */,
+				C9EA78A7183E426B00DDDA2E /* button_duplicate.png in Resources */,
+				C9EA78A8183E426B00DDDA2E /* button_edit_mode_selected.png in Resources */,
+				C9EA78A9183E426B00DDDA2E /* button_edit_mode.png in Resources */,
+				C9EA78AA183E426B00DDDA2E /* button_edit.png in Resources */,
+				C9EA78AB183E426B00DDDA2E /* button_remove.png in Resources */,
+				C9EA78AC183E426B00DDDA2E /* button_select_all.png in Resources */,
+				C9EA78AD183E426B00DDDA2E /* button_select_none.png in Resources */,
+				C9EA78AE183E426B00DDDA2E /* clearconsole.png in Resources */,
+				C9EA78AF183E426B00DDDA2E /* field-small-square.png in Resources */,
+				C9EA78B0183E426B00DDDA2E /* hideconsole.png in Resources */,
+				C9EA78B1183E426B00DDDA2E /* network-small.png in Resources */,
+				C9EA78B2183E426B00DDDA2E /* showconsole.png in Resources */,
+				C9EA78B3183E426B00DDDA2E /* sync_arrows_01.png in Resources */,
+				C9EA78B4183E426B00DDDA2E /* sync_arrows_02.png in Resources */,
+				C9EA78B5183E426B00DDDA2E /* sync_arrows_03.png in Resources */,
+				C9EA78B6183E426B00DDDA2E /* sync_arrows_04.png in Resources */,
+				C9EA78B7183E426B00DDDA2E /* sync_arrows_05.png in Resources */,
+				C9EA78B8183E426B00DDDA2E /* sync_arrows_06.png in Resources */,
+				C9EA78B9183E426B00DDDA2E /* table-view-small-square.png in Resources */,
+				C9EA78BA183E426B00DDDA2E /* table-view-small.png in Resources */,
+				C9EA78BB183E426B00DDDA2E /* toolbar-preferences-autoupdate.png in Resources */,
+				C9EA78BC183E426B00DDDA2E /* toolbar-preferences-general.png in Resources */,
+				C9EA78BD183E426B00DDDA2E /* toolbar-preferences-notifications.png in Resources */,
+				C9EA78BE183E426B00DDDA2E /* toolbar-preferences-tables.png in Resources */,
+				C9EA78BF183E426B00DDDA2E /* toolbar-preferences-network.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -3028,6 +3634,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Add the unit test bundle's Frameworks/ path to the search paths for dynamic libraries\nexport DYLD_FRAMEWORK_PATH=\"${CONFIGURATION_BUILD_DIR}/${FULL_PRODUCT_NAME}/Contents/Frameworks\"\n\nexport TEST_AFTER_BUILD=YES\n\n# Run the unit tests in this test bundle\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		C9EA78CB183E426B00DDDA2E /* Run Scripts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Scripts";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run build tasks\n\"${SRCROOT}/Scripts/build.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -3284,6 +3904,189 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C9EA7774183E426B00DDDA2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9EA7775183E426B00DDDA2E /* SPDatabaseRename.m in Sources */,
+				C9EA7776183E426B00DDDA2E /* main.m in Sources */,
+				C9EA7777183E426B00DDDA2E /* SPCustomQuery.m in Sources */,
+				C9EA7778183E426B00DDDA2E /* SPAppController.m in Sources */,
+				C9EA7779183E426B00DDDA2E /* SPGrowlController.m in Sources */,
+				C9EA777A183E426B00DDDA2E /* SPTableContent.m in Sources */,
+				C9EA777B183E426B00DDDA2E /* SPDatabaseDocument.m in Sources */,
+				C9EA777C183E426B00DDDA2E /* SPDataImport.m in Sources */,
+				C9EA777D183E426B00DDDA2E /* SPTableStructure.m in Sources */,
+				C9EA777E183E426B00DDDA2E /* SPTableInfo.m in Sources */,
+				C9EA777F183E426B00DDDA2E /* SPTablesList.m in Sources */,
+				C9EA7780183E426B00DDDA2E /* ImageAndTextCell.m in Sources */,
+				C9EA7781183E426B00DDDA2E /* SPKeychain.m in Sources */,
+				C9EA7782183E426B00DDDA2E /* SPImageView.m in Sources */,
+				C9EA7783183E426B00DDDA2E /* SPTextView.m in Sources */,
+				C9EA7784183E426B00DDDA2E /* SPSQLParser.m in Sources */,
+				C9EA7785183E426B00DDDA2E /* SPStringAdditions.m in Sources */,
+				C9EA7786183E426B00DDDA2E /* SPTableData.m in Sources */,
+				C9EA7787183E426B00DDDA2E /* SPDataCellFormatter.m in Sources */,
+				C9EA7788183E426B00DDDA2E /* SPConsoleMessage.m in Sources */,
+				C9EA7789183E426B00DDDA2E /* SPEditorTokens.l in Sources */,
+				C9EA778A183E426B00DDDA2E /* SPExportController.m in Sources */,
+				C9EA778B183E426B00DDDA2E /* SPPreferenceController.m in Sources */,
+				C9EA778C183E426B00DDDA2E /* SPWindowAdditions.m in Sources */,
+				C9EA778D183E426B00DDDA2E /* SPFavoriteTextFieldCell.m in Sources */,
+				C9EA778E183E426B00DDDA2E /* SPArrayAdditions.m in Sources */,
+				C9EA778F183E426B00DDDA2E /* SPTextViewAdditions.m in Sources */,
+				C9EA7790183E426B00DDDA2E /* MGTemplateEngine.m in Sources */,
+				C9EA7791183E426B00DDDA2E /* RegexKitLite.m in Sources */,
+				C9EA7792183E426B00DDDA2E /* ICUTemplateMatcher.m in Sources */,
+				C9EA7793183E426B00DDDA2E /* MGTemplateStandardMarkers.m in Sources */,
+				C9EA7794183E426B00DDDA2E /* NSArray_DeepMutableCopy.m in Sources */,
+				C9EA7795183E426B00DDDA2E /* NSDictionary_DeepMutableCopy.m in Sources */,
+				C9EA7796183E426B00DDDA2E /* MGTemplateStandardFilters.m in Sources */,
+				C9EA7797183E426B00DDDA2E /* NoodleLineNumberView.m in Sources */,
+				C9EA7798183E426B00DDDA2E /* SPSQLTokenizer.l in Sources */,
+				C9EA7799183E426B00DDDA2E /* SPTableRelations.m in Sources */,
+				C9EA779A183E426B00DDDA2E /* SPDatabaseData.m in Sources */,
+				C9EA779B183E426B00DDDA2E /* SPNarrowDownCompletion.m in Sources */,
+				C9EA779C183E426B00DDDA2E /* SPExtendedTableInfo.m in Sources */,
+				C9EA779D183E426B00DDDA2E /* SPSSHTunnel.m in Sources */,
+				C9EA779E183E426B00DDDA2E /* SPPrintAccessory.m in Sources */,
+				C9EA779F183E426B00DDDA2E /* SPEditSheetTextView.m in Sources */,
+				C9EA77A0183E426B00DDDA2E /* SPDataAdditions.m in Sources */,
+				C9EA77A1183E426B00DDDA2E /* SPConnectionController.m in Sources */,
+				C9EA77A2183E426B00DDDA2E /* SPTableView.m in Sources */,
+				C9EA77A3183E426B00DDDA2E /* SPFieldEditorController.m in Sources */,
+				C9EA77A4183E426B00DDDA2E /* SPTextAndLinkCell.m in Sources */,
+				C9EA77A5183E426B00DDDA2E /* YRKSpinningProgressIndicator.m in Sources */,
+				C9EA77A6183E426B00DDDA2E /* SPUserManager.m in Sources */,
+				C9EA77A7183E426B00DDDA2E /* SPUserManager.xcdatamodel in Sources */,
+				C9EA77A8183E426B00DDDA2E /* SPUserMO.m in Sources */,
+				C9EA77A9183E426B00DDDA2E /* NSMutableArray-MultipleSort.m in Sources */,
+				C9EA77AA183E426B00DDDA2E /* SPHistoryController.m in Sources */,
+				C9EA77AB183E426B00DDDA2E /* SPTooltip.m in Sources */,
+				C9EA77AC183E426B00DDDA2E /* SPLogger.m in Sources */,
+				C9EA77AD183E426B00DDDA2E /* SPEncodingPopupAccessory.m in Sources */,
+				C9EA77AE183E426B00DDDA2E /* SPQueryFavoriteManager.m in Sources */,
+				C9EA77AF183E426B00DDDA2E /* SPOutlineView.m in Sources */,
+				C9EA77B0183E426B00DDDA2E /* SPCSVExporter.m in Sources */,
+				C9EA77B1183E426B00DDDA2E /* SPExporter.m in Sources */,
+				C9EA77B2183E426B00DDDA2E /* SPSQLExporter.m in Sources */,
+				C9EA77B3183E426B00DDDA2E /* SPQueryController.m in Sources */,
+				C9EA77B4183E426B00DDDA2E /* SPCSVParser.m in Sources */,
+				C9EA77B5183E426B00DDDA2E /* SPContentFilterManager.m in Sources */,
+				C9EA77B6183E426B00DDDA2E /* SPXMLExporter.m in Sources */,
+				C9EA77B7183E426B00DDDA2E /* SPNotLoaded.m in Sources */,
+				C9EA77B8183E426B00DDDA2E /* SPConstants.m in Sources */,
+				C9EA77B9183E426B00DDDA2E /* SPTableTextFieldCell.m in Sources */,
+				C9EA77BA183E426B00DDDA2E /* SPProcessListController.m in Sources */,
+				C9EA77BB183E426B00DDDA2E /* SPServerVariablesController.m in Sources */,
+				C9EA77BC183E426B00DDDA2E /* SPConnectionDelegate.m in Sources */,
+				C9EA77BD183E426B00DDDA2E /* SPAboutController.m in Sources */,
+				C9EA77BE183E426B00DDDA2E /* SPDataStorage.m in Sources */,
+				C9EA77BF183E426B00DDDA2E /* SPAlertSheets.m in Sources */,
+				C9EA77C0183E426B00DDDA2E /* SPTableTriggers.m in Sources */,
+				C9EA77C1183E426B00DDDA2E /* SPFieldMapperController.m in Sources */,
+				C9EA77C2183E426B00DDDA2E /* SPPrintController.m in Sources */,
+				C9EA77C3183E426B00DDDA2E /* SPNavigatorController.m in Sources */,
+				C9EA77C4183E426B00DDDA2E /* SPMainThreadTrampoline.m in Sources */,
+				C9EA77C5183E426B00DDDA2E /* SPNavigatorOutlineView.m in Sources */,
+				C9EA77C6183E426B00DDDA2E /* SPFileHandle.m in Sources */,
+				C9EA77C7183E426B00DDDA2E /* SPDatabaseCopy.m in Sources */,
+				C9EA77C8183E426B00DDDA2E /* SPTableCopy.m in Sources */,
+				C9EA77C9183E426B00DDDA2E /* SPDatabaseAction.m in Sources */,
+				C9EA77CA183E426B00DDDA2E /* SPWindowController.m in Sources */,
+				C9EA77CB183E426B00DDDA2E /* SPDocumentController.m in Sources */,
+				C9EA77CC183E426B00DDDA2E /* SPExportInitializer.m in Sources */,
+				C9EA77CD183E426B00DDDA2E /* SPExportUtilities.m in Sources */,
+				C9EA77CE183E426B00DDDA2E /* SPDotExporter.m in Sources */,
+				C9EA77CF183E426B00DDDA2E /* SPHTMLExporter.m in Sources */,
+				C9EA77D0183E426B00DDDA2E /* SPPDFExporter.m in Sources */,
+				C9EA77D1183E426B00DDDA2E /* SPCSVExporterDelegate.m in Sources */,
+				C9EA77D2183E426B00DDDA2E /* SPDotExporterDelegate.m in Sources */,
+				C9EA77D3183E426B00DDDA2E /* SPHTMLExporterDelegate.m in Sources */,
+				C9EA77D4183E426B00DDDA2E /* SPPDFExporterDelegate.m in Sources */,
+				C9EA77D5183E426B00DDDA2E /* SPSQLExporterDelegate.m in Sources */,
+				C9EA77D6183E426B00DDDA2E /* SPXMLExporterDelegate.m in Sources */,
+				C9EA77D7183E426B00DDDA2E /* DMLocalizedNibBundle.m in Sources */,
+				C9EA77D8183E426B00DDDA2E /* SPIndexesController.m in Sources */,
+				C9EA77D9183E426B00DDDA2E /* DMLocalizedNib.m in Sources */,
+				C9EA77DA183E426B00DDDA2E /* SPExportFilenameUtilities.m in Sources */,
+				C9EA77DB183E426B00DDDA2E /* SPExportFile.m in Sources */,
+				C9EA77DC183E426B00DDDA2E /* SPExportFileUtilities.m in Sources */,
+				C9EA77DD183E426B00DDDA2E /* SPColorAdditions.m in Sources */,
+				C9EA77DE183E426B00DDDA2E /* SPColorWellCell.m in Sources */,
+				C9EA77DF183E426B00DDDA2E /* SPCopyTable.m in Sources */,
+				C9EA77E0183E426B00DDDA2E /* SPFileManagerAdditions.m in Sources */,
+				C9EA77E1183E426B00DDDA2E /* SPServerSupport.m in Sources */,
+				C9EA77E2183E426B00DDDA2E /* SPGeometryDataView.m in Sources */,
+				C9EA77E3183E426B00DDDA2E /* SPDatabaseCharacterSets.m in Sources */,
+				C9EA77E4183E426B00DDDA2E /* SPAppleScriptSupport.m in Sources */,
+				C9EA77E5183E426B00DDDA2E /* SPExportControllerDelegate.m in Sources */,
+				C9EA77E6183E426B00DDDA2E /* SPTableStructureDelegate.m in Sources */,
+				C9EA77E7183E426B00DDDA2E /* SPTableFieldValidation.m in Sources */,
+				C9EA77E8183E426B00DDDA2E /* SPGeneralPreferencePane.m in Sources */,
+				C9EA77E9183E426B00DDDA2E /* SPPreferencesUpgrade.m in Sources */,
+				C9EA77EA183E426B00DDDA2E /* SPPreferencePane.m in Sources */,
+				C9EA77EB183E426B00DDDA2E /* SPPreferenceControllerDelegate.m in Sources */,
+				C9EA77EC183E426B00DDDA2E /* SPTablesPreferencePane.m in Sources */,
+				C9EA77ED183E426B00DDDA2E /* SPNotificationsPreferencePane.m in Sources */,
+				C9EA77EE183E426B00DDDA2E /* SPAutoUpdatePreferencePane.m in Sources */,
+				C9EA77EF183E426B00DDDA2E /* SPNetworkPreferencePane.m in Sources */,
+				C9EA77F0183E426B00DDDA2E /* SPEditorPreferencePane.m in Sources */,
+				C9EA77F1183E426B00DDDA2E /* SPFontPreviewTextField.m in Sources */,
+				C9EA77F2183E426B00DDDA2E /* SPDatabaseViewController.m in Sources */,
+				C9EA77F3183E426B00DDDA2E /* SPFavoriteNode.m in Sources */,
+				C9EA77F4183E426B00DDDA2E /* SPConnectionControllerDelegate.m in Sources */,
+				C9EA77F5183E426B00DDDA2E /* SPFavoritesController.m in Sources */,
+				C9EA77F6183E426B00DDDA2E /* SPSingleton.m in Sources */,
+				C9EA77F7183E426B00DDDA2E /* SPFavoritesOutlineView.m in Sources */,
+				C9EA77F8183E426B00DDDA2E /* SPBundleEditorController.m in Sources */,
+				C9EA77F9183E426B00DDDA2E /* SPBundleCommandTextView.m in Sources */,
+				C9EA77FA183E426B00DDDA2E /* SPBundleHTMLOutputController.m in Sources */,
+				C9EA77FB183E426B00DDDA2E /* SPMenuAdditions.m in Sources */,
+				C9EA77FC183E426B00DDDA2E /* SPActivityTextFieldCell.m in Sources */,
+				C9EA77FD183E426B00DDDA2E /* SPChooseMenuItemDialog.m in Sources */,
+				C9EA77FE183E426B00DDDA2E /* SPWindow.m in Sources */,
+				C9EA77FF183E426B00DDDA2E /* SPExportFileNameTokenObject.m in Sources */,
+				C9EA7800183E426B00DDDA2E /* SPQueryDocumentsController.m in Sources */,
+				C9EA7801183E426B00DDDA2E /* SPQueryConsoleDataSource.m in Sources */,
+				C9EA7802183E426B00DDDA2E /* SPQueryControllerInitializer.m in Sources */,
+				C9EA7803183E426B00DDDA2E /* SPObjectAdditions.m in Sources */,
+				C9EA7804183E426B00DDDA2E /* SPDatabaseStructure.m in Sources */,
+				C9EA7805183E426B00DDDA2E /* NSNotificationCenterThreadingAdditions.m in Sources */,
+				C9EA7806183E426B00DDDA2E /* SPDataBase64EncodingAdditions.m in Sources */,
+				C9EA7807183E426B00DDDA2E /* SPTableContentDataSource.m in Sources */,
+				C9EA7808183E426B00DDDA2E /* SPTableContentDelegate.m in Sources */,
+				C9EA7809183E426B00DDDA2E /* SPUserManagerDelegate.m in Sources */,
+				C9EA780A183E426B00DDDA2E /* SPExportInterfaceController.m in Sources */,
+				C9EA780B183E426B00DDDA2E /* SPWindowControllerDelegate.m in Sources */,
+				C9EA780C183E426B00DDDA2E /* SPFavoritesExporter.m in Sources */,
+				C9EA780D183E426B00DDDA2E /* SPFavoritesImporter.m in Sources */,
+				C9EA780E183E426B00DDDA2E /* SPConnectionControllerDataSource.m in Sources */,
+				C9EA780F183E426B00DDDA2E /* SPConnectionControllerInitializer.m in Sources */,
+				C9EA7810183E426B00DDDA2E /* SPConnectionHandler.m in Sources */,
+				C9EA7811183E426B00DDDA2E /* SPGroupNode.m in Sources */,
+				C9EA7812183E426B00DDDA2E /* SPMutableArrayAdditions.m in Sources */,
+				C9EA7813183E426B00DDDA2E /* SPTreeNode.m in Sources */,
+				C9EA7814183E426B00DDDA2E /* SPFlippedView.m in Sources */,
+				C9EA7815183E426B00DDDA2E /* SPViewCopy.m in Sources */,
+				C9EA7816183E426B00DDDA2E /* SPBundleCommandRunner.m in Sources */,
+				C9EA7817183E426B00DDDA2E /* SPTableStructureLoading.m in Sources */,
+				C9EA7818183E426B00DDDA2E /* SPWindowManagement.m in Sources */,
+				C9EA7819183E426B00DDDA2E /* SPDateAdditions.m in Sources */,
+				C9EA781A183E426B00DDDA2E /* SPSplitView.m in Sources */,
+				C9EA781B183E426B00DDDA2E /* BGHUDButtonCell.m in Sources */,
+				C9EA781C183E426B00DDDA2E /* SPTableContentFilter.m in Sources */,
+				C9EA781D183E426B00DDDA2E /* SPThreadAdditions.m in Sources */,
+				C9EA781E183E426B00DDDA2E /* SPTableTriggersDelegate.m in Sources */,
+				C9EA781F183E426B00DDDA2E /* SPUserManagerDataSource.m in Sources */,
+				C9EA7820183E426B00DDDA2E /* SPComboPopupButton.m in Sources */,
+				C9EA7821183E426B00DDDA2E /* SPProcessListControllerDataSource.m in Sources */,
+				C9EA7822183E426B00DDDA2E /* SPCharsetCollationHelper.m in Sources */,
+				C9EA7823183E426B00DDDA2E /* SPColorSelectorView.m in Sources */,
+				C9EA7824183E426B00DDDA2E /* SPFavoriteColorSupport.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -3331,6 +4134,36 @@
 			isa = PBXTargetDependency;
 			target = 58CDB3350FCE13C900F8ACA3 /* SequelProTunnelAssistant */;
 			targetProxy = 58CDB34A0FCE144000F8ACA3 /* PBXContainerItemProxy */;
+		};
+		C9EA7768183E426B00DDDA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPMySQL.framework;
+			targetProxy = C9EA7769183E426B00DDDA2E /* PBXContainerItemProxy */;
+		};
+		C9EA776A183E426B00DDDA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B906E511BD989A000826E5 /* PSMTabBar */;
+			targetProxy = C9EA776B183E426B00DDDA2E /* PBXContainerItemProxy */;
+		};
+		C9EA776C183E426B00DDDA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58CDB3350FCE13C900F8ACA3 /* SequelProTunnelAssistant */;
+			targetProxy = C9EA776D183E426B00DDDA2E /* PBXContainerItemProxy */;
+		};
+		C9EA776E183E426B00DDDA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58B9096011C3A42B000826E5 /* xibLocalizationPostprocessor */;
+			targetProxy = C9EA776F183E426B00DDDA2E /* PBXContainerItemProxy */;
+		};
+		C9EA7770183E426B00DDDA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 584754C1120A04560057631F /* Sequel Pro QLGenerator */;
+			targetProxy = C9EA7771183E426B00DDDA2E /* PBXContainerItemProxy */;
+		};
+		C9EA7772183E426B00DDDA2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QueryKit;
+			targetProxy = C9EA7773183E426B00DDDA2E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3871,7 +4704,7 @@
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IBC_WARNINGS = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 				VALID_ARCHS = "i386 x86_64";
 				WARNING_CFLAGS = "-Wmost";
 			};
@@ -3901,7 +4734,7 @@
 					"-lcrypto",
 				);
 				PRODUCT_NAME = "Sequel Pro";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 				SEPARATE_STRIP = NO;
 			};
 			name = Distribution;
@@ -4110,7 +4943,7 @@
 					"-lcrypto",
 				);
 				PRODUCT_NAME = "Sequel Pro";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 				SEPARATE_STRIP = NO;
 			};
 			name = Debug;
@@ -4141,7 +4974,7 @@
 					"-lcrypto",
 				);
 				PRODUCT_NAME = "Sequel Pro";
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 				SEPARATE_STRIP = NO;
 			};
 			name = Release;
@@ -4196,7 +5029,7 @@
 				LEX_SUPPRESS_DEFAULT_RULE = NO;
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 				STRIP_INSTALLED_PRODUCT = NO;
 				VALID_ARCHS = "i386 x86_64";
 				WARNING_CFLAGS = "-Wmost";
@@ -4245,11 +5078,101 @@
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IBC_WARNINGS = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 				VALID_ARCHS = "i386 x86_64";
 				WARNING_CFLAGS = "-Wmost";
 			};
 			name = Release;
+		};
+		C9EA78CD183E426B00DDDA2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Frameworks/QueryKit/build/Debug\"",
+					"\"$(SRCROOT)/Frameworks/SPMySQLFramework/build/Debug\"",
+					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/Sequel-Pro.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Resources/Plists/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/Frameworks/zlib\"";
+				OTHER_LDFLAGS = (
+					"$(SRCROOT)/Frameworks/zlib/libz.a",
+					"-lcrypto",
+				);
+				PRODUCT_NAME = "Sequel Pro";
+				SDKROOT = macosx;
+				SEPARATE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C9EA78CE183E426B00DDDA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Frameworks/SPMySQLFramework/build/Release\"",
+					"\"$(SRCROOT)/Frameworks/QueryKit/build/Release\"",
+					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/Sequel-Pro.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Resources/Plists/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/Frameworks/zlib\"";
+				OTHER_LDFLAGS = (
+					"$(SRCROOT)/Frameworks/zlib/libz.a",
+					"-lcrypto",
+				);
+				PRODUCT_NAME = "Sequel Pro";
+				SDKROOT = macosx;
+				SEPARATE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C9EA78CF183E426B00DDDA2E /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SRCROOT)/Frameworks/SPMySQLFramework/build/Distribution\"",
+					"\"$(SRCROOT)/Frameworks/QueryKit/build/Distribution\"",
+					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/Sequel-Pro.pch";
+				INFOPLIST_FILE = Resources/Plists/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/Frameworks/zlib\"";
+				OTHER_LDFLAGS = (
+					"$(SRCROOT)/Frameworks/zlib/libz.a",
+					"-lcrypto",
+				);
+				PRODUCT_NAME = "Sequel Pro";
+				SDKROOT = macosx;
+				SEPARATE_STRIP = NO;
+			};
+			name = Distribution;
 		};
 /* End XCBuildConfiguration section */
 
@@ -4330,6 +5253,16 @@
 				C05733CC08A9546B00998B17 /* Debug */,
 				C05733CD08A9546B00998B17 /* Release */,
 				588593F00F7AEB6900ED0E67 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9EA78CC183E426B00DDDA2E /* Build configuration list for PBXNativeTarget "Sequel Pro - Latest OS X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9EA78CD183E426B00DDDA2E /* Debug */,
+				C9EA78CE183E426B00DDDA2E /* Release */,
+				C9EA78CF183E426B00DDDA2E /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -552,6 +552,7 @@
 					"\"$(SRCROOT)/MySQL Client Libraries/lib\"",
 				);
 				PRODUCT_NAME = SPMySQL;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -577,6 +578,7 @@
 					"\"$(SRCROOT)/MySQL Client Libraries/lib\"",
 				);
 				PRODUCT_NAME = SPMySQL;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -697,6 +699,7 @@
 					"\"$(SRCROOT)/MySQL Client Libraries/lib\"",
 				);
 				PRODUCT_NAME = SPMySQL;
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
 			};
